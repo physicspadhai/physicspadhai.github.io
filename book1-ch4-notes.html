@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch-4: Moving Charges and Magnetism - Class 12 Physics NCERT 2025-26</title>
+    <meta name="description" content="Class 12 Physics Chapter 4 Moving Charges and Magnetism Notes, PYQ, Important Formulas for CBSE Board 2026">
+    
+    <!-- MathJax Config - INLINE + DISPLAY MATH -->
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.7; padding: 20px;}
+        .container {max-width: 900px; margin: 0 auto;}
+        .breadcrumb {margin-bottom: 20px; color: #94a3b8;}
+        .breadcrumb a {color: #60a5fa; text-decoration: none;}
+        h1 {color: #60a5fa; font-size: 2.2rem; margin-bottom: 20px; border-bottom: 3px solid #3b82f6; padding-bottom: 10px;}
+        h2 {color: #fbbf24; font-size: 1.6rem; margin: 30px 0 15px 0; background: #1e293b; padding: 10px 15px; border-left: 4px solid #f59e0b; border-radius: 6px;}
+        h3 {color: #34d399; font-size: 1.3rem; margin: 20px 0 10px 0;}
+        .formula-box {background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center; font-size: 1.1rem;}
+        .pyq-box {background: #1e293b; border-left: 4px solid #10b981; padding: 15px; margin: 20px 0; border-radius: 6px;}
+        .pyq-box h4 {color: #10b981; margin-bottom: 8px;}
+        ul {margin: 15px 0 15px 30px;}
+        li {margin: 8px 0;}
+        .imp-point {background: #3b82f620; border: 1px solid #3b82f6; padding: 15px; border-radius: 8px; margin: 20px 0;}
+        .back-btn {display: inline-block; background: #3b82f6; color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; margin: 30px 0; font-weight: 600;}
+        .back-btn:hover {background: #2563eb;}
+        table {width: 100%; border-collapse: collapse; margin: 20px 0; background: #1e293b;}
+        th, td {border: 1px solid #334155; padding: 12px; text-align: left;}
+        th {background: #334155; color: #fbbf24;}
+        @media (max-width: 600px) {h1 {font-size: 1.8rem;} body {padding: 15px;}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> / <a href="index.html">Book 1</a> / Chapter 4 Notes
+        </div>
+
+        <h1>Chapter 4: Moving Charges and Magnetism 🧲</h1>
+
+        <h2>1. Magnetic Field - Oersted's Experiment</h2>
+        <p>Current carrying conductor produces magnetic field around it. Magnetic field is produced by moving charges only.</p>
+        
+        <div class="imp-point">
+            <b>🔥 Board Point:</b> Stationary charge → only electric field. Moving charge → both electric + magnetic field.
+        </div>
+
+        <h2>2. Biot-Savart Law</h2>
+        <p>Magnetic field due to current element $I d\vec{l}$ at point P:</p>
+        <div class="formula-box">
+            $$d\vec{B} = \frac{\mu_0}{4\pi} \frac{I d\vec{l} \times \vec{r}}{r^3}$$
+            $$|dB| = \frac{\mu_0}{4\pi} \frac{I dl \sin\theta}{r^2}$$
+            Where $\mu_0 = 4\pi \times 10^{-7}$ Tm/A
+        </div>
+
+        <h3>Direction:</h3>
+        <p>Given by Right Hand Thumb Rule. Curl fingers in direction of current, thumb gives B direction.</p>
+
+        <h2>3. Magnetic Field due to Current Carrying Conductor</h2>
+        <h3>1. Straight Wire - Finite Length:</h3>
+        <div class="formula-box">
+            $$B = \frac{\mu_0 I}{4\pi r}(\sin\phi_1 + \sin\phi_2)$$
+        </div>
+
+        <h3>2. Infinite Straight Wire:</h3>
+        <div class="formula-box">
+            $$B = \frac{\mu_0 I}{2\pi r}$$
+        </div>
+
+        <h3>3. At Centre of Circular Coil:</h3>
+        <div class="formula-box">
+            $$B = \frac{\mu_0 N I}{2R}$$
+            N = number of turns, R = radius
+        </div>
+
+        <h3>4. On Axis of Circular Coil:</h3>
+        <div class="formula-box">
+            $$B = \frac{\mu_0 N I R^2}{2(R^2 + x^2)^{3/2}}$$
+            At centre x=0, gives above formula.
+        </div>
+
+        <div class="pyq-box">
+            <h4>PYQ 2023:</h4>
+            <p><b>Q.</b> Derive expression for magnetic field at centre of circular current loop.<br>
+            <b>Ans:</b> Use Biot-Savart law. Integrate $dl = Rd\theta$ from 0 to 2π. $B = \frac{\mu_0 I}{2R}$</p>
+        </div>
+
+        <h2>4. Ampere's Circuital Law</h2>
+        <p>Line integral of magnetic field over closed loop = $\mu_0$ times total current threading the loop.</p>
+        <div class="formula-box">
+            $$\oint \vec{B} \cdot d\vec{l} = \mu_0 I_{enclosed}$$
+        </div>
+
+        <h3>Applications:</h3>
+        <p><b>1. Infinite Wire:</b> $B = \frac{\mu_0 I}{2\pi r}$ - Same as Biot-Savart</p>
+        <p><b>2. Solenoid:</b> Inside $B = \mu_0 n I$, Outside B ≈ 0. n = turns per unit length</p>
+        <p><b>3. Toroid:</b> Inside $B = \frac{\mu_0 N I}{2\pi r}$, Outside B = 0</p>
+
+        <h2>5. Force on Moving Charge - Lorentz Force</h2>
+        <div class="formula-box">
+            $$\vec{F} = q(\vec{E} + \vec{v} \times \vec{B})$$
+            Magnetic force: $\vec{F}_m = q(\vec{v} \times \vec{B})$ or $F = qvB\sin\theta$
+        </div>
+
+        <h3>Direction:</h3>
+        <p>Fleming's Left Hand Rule. For +ve charge. For -ve charge, reverse direction.</p>
+
+        <div class="imp-point">
+            <b>🔥 Board Point:</b> Magnetic force does NO work because $\vec{F} \perp \vec{v}$. It only changes direction, not speed/KE.
+        </div>
+
+        <h2>6. Motion in Magnetic Field</h2>
+        <h3>Case 1: $\vec{v} \parallel \vec{B}$ or $\vec{v}$ anti-parallel</h3>
+        <p>$\theta = 0°$ or $180°$, F = 0. Charge moves in straight line.</p>
+
+        <h3>Case 2: $\vec{v} \perp \vec{B}$</h3>
+        <p>Charge moves in circular path.</p>
+        <div class="formula-box">
+            $$qvB = \frac{mv^2}{r} \Rightarrow r = \frac{mv}{qB} = \frac{p}{qB}$$
+            $$T = \frac{2\pi m}{qB}, \quad f = \frac{qB}{2\pi m}$$
+        </div>
+
+        <h3>Case 3: $\vec{v}$ at angle θ</h3>
+        <p>Helical path. Pitch = $v_\parallel T = v\cos\theta \times \frac{2\pi m}{qB}$</p>
+
+        <h2>7. Cyclotron</h2>
+        <p>Device to accelerate charged particles using crossed E and B fields.</p>
+        <div class="formula-box">
+            $$\text{Cyclotron frequency: } f = \frac{qB}{2\pi m}$$
+            $$\text{Max KE: } KE_{max} = \frac{q^2 B^2 R^2}{2m}$$
+        </div>
+
+        <h3>Limitations:</h3>
+        <ul>
+            <li>Can't accelerate electrons - relativistic mass increase</li>
+            <li>Can't accelerate neutrons - no charge</li>
+        </ul>
+
+        <h2>8. Force on Current Carrying Conductor</h2>
+        <div class="formula-box">
+            $$\vec{F} = I(\vec{L} \times \vec{B})$$
+            $$F = BIL\sin\theta$$
+        </div>
+
+        <h2>9. Force Between Two Parallel Currents</h2>
+        <div class="formula-box">
+            $$\frac{F}{l} = \frac{\mu_0 I_1 I_2}{2\pi r}$$
+            Parallel currents attract, Anti-parallel repel.
+        </div>
+
+        <h3>Definition of 1 Ampere:</h3>
+        <p>If I₁ = I₂ = 1A, r = 1m, then F/l = 2 × 10⁻⁷ N/m</p>
+
+        <h2>10. Torque on Current Loop</h2>
+        <div class="formula-box">
+            $$\vec{\tau} = \vec{M} \times \vec{B} = NIAB\sin\theta$$
+            Where $M = NIA$ = Magnetic dipole moment
+        </div>
+
+        <h2>11. Moving Coil Galvanometer</h2>
+        <p>Current measuring device. Principle: $\tau_{deflecting} = \tau_{restoring}$</p>
+        <div class="formula-box">
+            $$NIAB = k\phi \Rightarrow I = \frac{k}{NAB}\phi = G\phi$$
+            G = Galvanometer constant
+        </div>
+
+        <h3>Conversion to Ammeter:</h3>
+        <p>Connect low resistance shunt S in parallel: $S = \frac{I_g R_g}{I - I_g}$</p>
+
+        <h3>Conversion to Voltmeter:</h3>
+        <p>Connect high resistance R in series: $R = \frac{V}{I_g} - R_g$</p>
+
+        <table>
+            <tr>
+                <th>Device</th>
+                <th>Resistance</th>
+                <th>Connection</th>
+            </tr>
+            <tr>
+                <td>Ammeter</td>
+                <td>Very Low</td>
+                <td>Series</td>
+            </tr>
+            <tr>
+                <td>Voltmeter</td>
+                <td>Very High</td>
+                <td>Parallel</td>
+            </tr>
+            <tr>
+                <td>Galvanometer</td>
+                <td>Medium</td>
+                <td>-</td>
+            </tr>
+        </table>
+
+        <div class="pyq-box">
+            <h4>PYQ 2024:</h4>
+            <p><b>Q.</b> How to convert galvanometer to ammeter? Derive formula for shunt.<br>
+            <b>Ans:</b> Connect shunt S parallel. $I_g R_g = (I-I_g)S \Rightarrow S = \frac{I_g R_g}{I-I_g}$</p>
+        </div>
+
+        <div class="imp-point">
+            <b>⚡ Last 5 Year Important:</b> Biot-Savart law applications, Ampere's law - solenoid, Force on moving charge, Torque on loop, Galvanometer conversion - ye 5 topics pakka aate hain.
+        </div>
+
+        <a href="index.html" class="back-btn">← Back to All Chapters</a>
+    </div>
+</body>
+  </html>
