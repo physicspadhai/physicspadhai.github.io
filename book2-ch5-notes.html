@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch 13 Semiconductor - Notes + PYQ | PhysicsPadhai</title>
+    <meta name="description" content="NCERT Class 12 Physics Chapter 13 Semiconductor Electronics Notes, p-n Junction, Diode, Rectifier, Transistor, Logic Gates, PYQ 2015-2025 for CBSE Board 2026">
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.8;}
+        .container {max-width: 900px; margin: 0 auto; padding: 20px;}
+        header {background: linear-gradient(135deg, #1e40af, #3b82f6); padding: 25px; border-radius: 12px; margin-bottom: 30px;}
+        h1 {font-size: 2rem; color: white; margin-bottom: 5px;}
+        .breadcrumb {color: #dbeafe;}
+        .breadcrumb a {color: white; text-decoration: none;}
+        h2 {color: #60a5fa; margin: 35px 0 15px 0; border-left: 4px solid #3b82f6; padding-left: 15px;}
+        h3 {color: #fbbf24; margin: 25px 0 10px 0;}
+        .box {background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px; margin: 20px 0;}
+        .formula {background: #0f172a; border-left: 3px solid #10b981; padding: 15px; margin: 15px 0; font-family: 'Courier New', monospace; overflow-x: auto;}
+        .pyq {background: #1e1b4b; border-left: 3px solid #f59e0b; padding: 15px; margin: 15px 0;}
+        .pyq-year {color: #fbbf24; font-weight: bold;}
+        ul {margin-left: 20px;} li {margin: 8px 0;}
+        .back-btn {display: inline-block; margin: 30px 0; padding: 12px 24px; background: #3b82f6; color: white; text-decoration: none; border-radius: 8px;}
+        table {width: 100%; border-collapse: collapse; margin: 15px 0;}
+        td, th {border: 1px solid #334155; padding: 10px; text-align: left;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ch 13: Semiconductor Electronics</h1>
+            <p class="breadcrumb"><a href="index.html">Home</a> / Book 2 / Chapter 5 Notes</p>
+        </header>
+
+        <div class="box">
+            <h2>1. Types of Semiconductors</h2>
+            <table>
+                <tr><th>Type</th><th>Doping</th><th>Majority Carrier</th><th>Minority Carrier</th></tr>
+                <tr><td>Intrinsic</td><td>Pure Si/Ge</td><td>$n_e = n_h = n_i$</td><td>-</td></tr>
+                <tr><td>n-type</td><td>Pentavalent: P, As</td><td>Electrons</td><td>Holes</td></tr>
+                <tr><td>p-type</td><td>Trivalent: B, Al</td><td>Holes</td><td>Electrons</td></tr>
+            </table>
+            <p>$n_e n_h = n_i^2$ - Mass action law</p>
+        </div>
+
+        <div class="box">
+            <h2>2. p-n Junction Diode</h2>
+            <p><strong>Forward Bias:</strong> p to +ve, n to -ve. Depletion layer decreases. Current due to majority carriers.</p>
+            <p><strong>Reverse Bias:</strong> p to -ve, n to +ve. Depletion layer increases. Small leakage current.</p>
+            <h3>Barrier Potential:</h3>
+            <p>Si = 0.7V, Ge = 0.3V</p>
+        </div>
+
+        <div class="box">
+            <h2>3. Rectifier</h2>
+            <p><strong>Half Wave:</strong> 1 diode. Efficiency = 40.6%. Ripple freq = Input freq</p>
+            <p><strong>Full Wave:</strong> 2 or 4 diodes. Efficiency = 81.2%. Ripple freq = 2× Input freq</p>
+            <p><strong>Filter:</strong> Capacitor used to smooth output</p>
+        </div>
+
+        <div class="box">
+            <h2>4. Transistor</h2>
+            <p>3 terminals: Emitter, Base, Collector. Two types: n-p-n, p-n-p</p>
+            <div class="formula">$I_E = I_B + I_C$ <br> $\alpha = I_C/I_E ≈ 0.98$ <br> $\beta = I_C/I_B ≈ 50-300$</div>
+            <p><strong>CE Amplifier:</strong> Voltage gain $A_v = \beta \frac{R_C}{R_B}$</p>
+        </div>
+
+        <div class="box">
+            <h2>5. Logic Gates</h2>
+            <table>
+                <tr><th>Gate</th><th>Symbol</th><th>Boolean</th><th>Truth Table</th></tr>
+                <tr><td>OR</td><td>≥1</td><td>Y = A+B</td><td>0+0=0, else 1</td></tr>
+                <tr><td>AND</td><td>&</td><td>Y = A·B</td><td>1·1=1, else 0</td></tr>
+                <tr><td>NOT</td><td>1</td><td>Y = $\bar{A}$</td><td>0→1, 1→0</td></tr>
+                <tr><td>NAND</td><td>& with o</td><td>Y = $\overline{A·B}$</td><td>Universal gate</td></tr>
+                <tr><td>NOR</td><td>≥1 with o</td><td>Y = $\overline{A+B}$</td><td>Universal gate</td></tr>
+            </table>
+        </div>
+
+        <h2>Previous Year Questions 2026</h2>
+
+        <div class="pyq">
+            <p class="pyq-year">CBSE 2024:</p>
+            <p><strong>Q.</strong> Draw V-I characteristics of p-n junction in forward and reverse bias.</p>
+            <p><strong>Ans:</strong> Forward: Exponential rise after knee voltage 0.7V Si. Reverse: Small μA current till breakdown.</p>
+        </div>
+
+        <div class="pyq">
+            <p class="pyq-year">CBSE 2023:</p>
+            <p><strong>Q.</strong> For CE transistor, β = 100, $I_B = 20$ μA. Find $I_C$ and $I_E$.</p>
+            <p><strong>Ans:</strong> $I_C = \beta I_B = 100×20$ μA = $2$ mA. $I_E = I_B + I_C = 2.02$ mA</p>
+        </div>
+
+        <a href="index.html" class="back-btn">← Back to All Chapters</a>
+    </div>
+</body>
+</html>
