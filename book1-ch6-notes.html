@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch 6 Alternating Current - Notes + PYQ | PhysicsPadhai</title>
+    <meta name="description" content="NCERT Class 12 Physics Chapter 6 Alternating Current Notes, AC Circuits, LCR, Transformer, PYQ 2015-2025 for CBSE Board 2026">
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.8;}
+        .container {max-width: 900px; margin: 0 auto; padding: 20px;}
+        header {background: linear-gradient(135deg, #1e40af, #3b82f6); padding: 25px; border-radius: 12px; margin-bottom: 30px;}
+        h1 {font-size: 2rem; color: white; margin-bottom: 5px;}
+        .breadcrumb {color: #dbeafe;}
+        .breadcrumb a {color: white; text-decoration: none;}
+        h2 {color: #60a5fa; margin: 35px 0 15px 0; border-left: 4px solid #3b82f6; padding-left: 15px;}
+        h3 {color: #fbbf24; margin: 25px 0 10px 0;}
+        .box {background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 20px; margin: 20px 0;}
+        .formula {background: #0f172a; border-left: 3px solid #10b981; padding: 15px; margin: 15px 0; font-family: 'Courier New', monospace; overflow-x: auto;}
+        .pyq {background: #1e1b4b; border-left: 3px solid #f59e0b; padding: 15px; margin: 15px 0;}
+        .pyq-year {color: #fbbf24; font-weight: bold;}
+        ul {margin-left: 20px;} li {margin: 8px 0;}
+        .back-btn {display: inline-block; margin: 30px 0; padding: 12px 24px; background: #3b82f6; color: white; text-decoration: none; border-radius: 8px;}
+        table {width: 100%; border-collapse: collapse; margin: 15px 0;}
+        td, th {border: 1px solid #334155; padding: 10px; text-align: left;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ch 6: Alternating Current</h1>
+            <p class="breadcrumb"><a href="index.html">Home</a> / Book 1 / Chapter 6 Notes</p>
+        </header>
+
+        <div class="box">
+            <h2>1. AC Voltage & Current</h2>
+            <div class="formula">$V = V_0 \sin\omega t$ <br> $I = I_0 \sin\omega t$ <br> $\omega = 2\pi f$</div>
+            <h3>Mean & RMS Values:</h3>
+            <div class="formula">$I_{rms} = \frac{I_0}{\sqrt{2}} = 0.707 I_0$ <br> $V_{rms} = \frac{V_0}{\sqrt{2}} = 0.707 V_0$</div>
+        </div>
+
+        <div class="box">
+            <h2>2. AC Circuit Elements</h2>
+            <table>
+                <tr><th>Element</th><th>Reactance</th><th>Phase b/w V & I</th></tr>
+                <tr><td>Resistor R</td><td>$R$</td><td>V & I in phase</td></tr>
+                <tr><td>Inductor L</td><td>$X_L = \omega L$</td><td>V leads I by 90°</td></tr>
+                <tr><td>Capacitor C</td><td>$X_C = \frac{1}{\omega C}$</td><td>I leads V by 90°</td></tr>
+            </table>
+        </div>
+
+        <div class="box">
+            <h2>3. LCR Series Circuit</h2>
+            <p>Impedance:</p>
+            <div class="formula">$Z = \sqrt{R^2 + (X_L - X_C)^2}$ <br> $I_0 = \frac{V_0}{Z}$</div>
+            <h3>Phase Angle:</h3>
+            <div class="formula">$\tan\phi = \frac{X_L - X_C}{R}$</div>
+            <h3>Resonance:</h3>
+            <p>$X_L = X_C$ → $Z_{min} = R$, $I_{max}$</p>
+            <div class="formula">$f_0 = \frac{1}{2\pi\sqrt{LC}}$ = Resonant Frequency</div>
+        </div>
+
+        <div class="box">
+            <h2>4. Power in AC Circuit</h2>
+            <div class="formula">$P_{avg} = V_{rms} I_{rms} \cos\phi$ <br> $\cos\phi$ = Power Factor</div>
+            <p><strong>Wattless Current:</strong> For pure L or C, $\phi = 90°$, $P = 0$</p>
+        </div>
+
+        <div class="box">
+            <h2>5. Transformer</h2>
+            <p>Principle: Mutual Induction</p>
+            <div class="formula">$\frac{V_s}{V_p} = \frac{N_s}{N_p} = \frac{I_p}{I_s}$ for ideal</div>
+            <p><strong>Step-up:</strong> $N_s > N_p$, $V_s > V_p$ <br> <strong>Step-down:</strong> $N_s < N_p$, $V_s < V_p$</p>
+        </div>
+
+        <h2>Previous Year Questions 2026</h2>
+
+        <div class="pyq">
+            <p class="pyq-year">CBSE 2024:</p>
+            <p><strong>Q.</strong> An LCR series circuit with R=100Ω, L=0.5H, C=10μF connected to 220V, 50Hz. Find impedance & phase angle.</p>
+            <p><strong>Ans:</strong> $X_L = 157Ω$, $X_C = 318Ω$, $Z = \sqrt{100^2 + (157-318)^2} = 189Ω$. $\phi = \tan^{-1}(-1.61) = -58°$</p>
+        </div>
+
+        <div class="pyq">
+            <p class="pyq-year">CBSE 2023:</p>
+            <p><strong>Q.</strong> Define wattless current. In which circuit it occurs?</p>
+            <p><strong>Ans:</strong> Current in AC circuit when avg power = 0. Occurs in pure inductive or pure capacitive circuit where $\phi = 90°$</p>
+        </div>
+
+        <a href="index.html" class="back-btn">← Back to All Chapters</a>
+    </div>
+</body>
+</html>
