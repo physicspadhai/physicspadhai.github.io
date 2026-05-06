@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://physicspadhai.github.io/sitemap.xml
