@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch-6: Electromagnetic Induction - Class 12 Physics NCERT 2025-26</title>
+    <meta name="description" content="Class 12 Physics Chapter 6 Electromagnetic Induction Notes, PYQ, Important Formulas for CBSE Board 2026">
+    
+    <!-- MathJax Config - INLINE + DISPLAY MATH -->
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.7; padding: 20px;}
+        .container {max-width: 900px; margin: 0 auto;}
+        .breadcrumb {margin-bottom: 20px; color: #94a3b8;}
+        .breadcrumb a {color: #60a5fa; text-decoration: none;}
+        h1 {color: #60a5fa; font-size: 2.2rem; margin-bottom: 20px; border-bottom: 3px solid #3b82f6; padding-bottom: 10px;}
+        h2 {color: #fbbf24; font-size: 1.6rem; margin: 30px 0 15px 0; background: #1e293b; padding: 10px 15px; border-left: 4px solid #f59e0b; border-radius: 6px;}
+        h3 {color: #34d399; font-size: 1.3rem; margin: 20px 0 10px 0;}
+        .formula-box {background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center; font-size: 1.1rem;}
+        .pyq-box {background: #1e293b; border-left: 4px solid #10b981; padding: 15px; margin: 20px 0; border-radius: 6px;}
+        .pyq-box h4 {color: #10b981; margin-bottom: 8px;}
+        ul {margin: 15px 0 15px 30px;}
+        li {margin: 8px 0;}
+        .imp-point {background: #3b82f620; border: 1px solid #3b82f6; padding: 15px; border-radius: 8px; margin: 20px 0;}
+        .back-btn {display: inline-block; background: #3b82f6; color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; margin: 30px 0; font-weight: 600;}
+        .back-btn:hover {background: #2563eb;}
+        @media (max-width: 600px) {h1 {font-size: 1.8rem;} body {padding: 15px;}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> / <a href="index.html">Book 1</a> / Chapter 6 Notes
+        </div>
+
+        <h1>Chapter 6: Electromagnetic Induction ⚡🧲</h1>
+
+        <h2>1. Magnetic Flux</h2>
+        <p>Total number of magnetic field lines passing normally through a surface.</p>
+        <div class="formula-box">
+            $$\phi_B = \vec{B} \cdot \vec{A} = BA\cos\theta$$
+            SI Unit: Weber (Wb) = T-m² = V-s
+        </div>
+
+        <div class="imp-point">
+            <b>🔥 Board Point:</b> Flux maximum when $\theta = 0°$, flux zero when $\theta = 90°$. Flux is scalar quantity.
+        </div>
+
+        <h2>2. Faraday's Law of EMI</h2>
+        <p>Whenever magnetic flux linked with a circuit changes, an EMF is induced in it.</p>
+        <div class="formula-box">
+            $$e = -\frac{d\phi_B}{dt}$$
+            For N turns: $$e = -N\frac{d\phi_B}{dt}$$
+        </div>
+
+        <h3>Lenz's Law:</h3>
+        <p>The polarity of induced EMF is such that it opposes the change in magnetic flux that produces it. Minus sign in Faraday's law represents Lenz's law.</p>
+        
+        <div class="imp-point">
+            <b>🔥 Board Point:</b> Lenz's law follows Law of Conservation of Energy. Agar oppose nahi karega to energy create ho jayegi from nothing.
+        </div>
+
+        <h2>3. Methods to Induce EMF</h2>
+        <p>EMF induce karne ke 3 tarike: $\phi_B = BA\cos\theta$</p>
+        <ul>
+            <li><b>1. B change karke:</b> Magnet ko coil ke paas le jaao</li>
+            <li><b>2. A change karke:</b> Coil ka area change karo</li>
+            <li><b>3. θ change karke:</b> Coil ko rotate karo</li>
+        </ul>
+
+        <h2>4. Motional EMF</h2>
+        <p>Conductor rod of length l moving with velocity v perpendicular to uniform B field:</p>
+        <div class="formula-box">
+            $$e = Blv$$
+            If velocity at angle θ: $$e = Blv\sin\theta$$
+        </div>
+
+        <h3>Fleming's Right Hand Rule:</h3>
+        <p>Thumb → Motion, Forefinger → Field, Middle finger → Induced Current/EMF</p>
+
+        <div class="pyq-box">
+            <h4>PYQ 2023:</h4>
+            <p><b>Q.</b> A rod 0.5m long moves with 2 m/s in field B = 0.3 T. Find induced EMF.<br>
+            <b>Ans:</b> $e = Blv = 0.3 \times 0.5 \times 2 = 0.3$ V</p>
+        </div>
+
+        <h2>5. Energy Consideration</h2>
+        <p>Mechanical power = Electrical power</p>
+        <div class="formula-box">
+            $$P_{mech} = Fv = IlB \times v = I(Blv) = Ie = P_{elec}$$
+        </div>
+
+        <h2>6. Eddy Currents</h2>
+        <p>Bulk pieces of conductor me induce hone wale circulating currents jab magnetic flux change hota hai.</p>
+        <h3>Disadvantages:</h3>
+        <ul>
+            <li>Heat loss $I^2R$ - Transformer core garam ho jata hai</li>
+            <li>Damping effect</li>
+        </ul>
+        <h3>Reducing Eddy Currents:</h3>
+        <p>Laminated core use karo - thin sheets insulated from each other.</p>
+        <h3>Applications:</h3>
+        <ul>
+            <li>Induction furnace</li>
+            <li>Electromagnetic damping</li>
+            <li>Electric brakes in trains</li>
+            <li>Speedometer</li>
+        </ul>
+
+        <h2>7. Self Induction</h2>
+        <p>Coil me current change hone se usi coil me EMF induce hona.</p>
+        <div class="formula-box">
+            $$\phi_B \propto I \Rightarrow \phi_B = LI$$
+            $$e = -L\frac{dI}{dt}$$
+            L = Self Inductance. Unit: Henry (H)
+        </div>
+
+        <h3>Self Inductance of Solenoid:</h3>
+        <div class="formula-box">
+            $$L = \frac{\mu_0 N^2 A}{l} = \mu_0 n^2 Al$$
+            n = turns per unit length
+        </div>
+
+        <h3>Energy Stored in Inductor:</h3>
+        <div class="formula-box">
+            $$U = \frac{1}{2}LI^2$$
+        </div>
+
+        <div class="pyq-box">
+            <h4>PYQ 2024:</h4>
+            <p><b>Q.</b> Define self inductance. Write SI unit. Derive expression for solenoid.<br>
+            <b>Ans:</b> $L = \phi/I$. Unit Henry. For solenoid $B = \mu_0nI$, $\phi = NBA$, $L = \mu_0n^2Al$</p>
+        </div>
+
+        <h2>8. Mutual Induction</h2>
+        <p>Ek coil me current change hone se doosri coil me EMF induce hona.</p>
+        <div class="formula-box">
+            $$\phi_2 \propto I_1 \Rightarrow \phi_2 = MI_1$$
+            $$e_2 = -M\frac{dI_1}{dt}$$
+            M = Mutual Inductance. Unit: Henry (H)
+        </div>
+
+        <h3>Mutual Inductance of Two Coaxial Solenoids:</h3>
+        <div class="formula-box">
+            $$M = \frac{\mu_0 N_1 N_2 A}{l} = \mu_0 n_1 n_2 Al$$
+        </div>
+
+        <h3>Coefficient of Coupling (K):</h3>
+        <div class="formula-box">
+            $$K = \frac{M}{\sqrt{L_1 L_2}}$$
+            For perfect coupling K = 1, for no coupling K = 0
+        </div>
+
+        <h2>9. AC Generator / Dynamo</h2>
+        <p>Mechanical energy ko electrical energy me convert karta hai. Principle: EMI</p>
+        <div class="formula-box">
+            $$e = NBA\omega\sin\omega t$$
+            $$e_{max} = NBA\omega$$
+            $$e_{rms} = \frac{e_{max}}{\sqrt{2}}$$
+        </div>
+
+        <div class="imp-point">
+            <b>⚡ Last 5 Year Important:</b> Faraday + Lenz law, Motional EMF numerical, Self & Mutual inductance formulas, Eddy currents applications, AC Generator - ye 5 topics pakka aate hain.
+        </div>
+
+        <a href="index.html" class="back-btn">← Back to All Chapters</a>
+    </div>
+</body>
+</html>
