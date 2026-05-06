@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch-7: Alternating Current - Class 12 Physics NCERT 2025-26</title>
+    <meta name="description" content="Class 12 Physics Chapter 7 Alternating Current Notes, PYQ, Important Formulas for CBSE Board 2026">
+    
+    <!-- MathJax Config - INLINE + DISPLAY MATH -->
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.7; padding: 20px;}
+        .container {max-width: 900px; margin: 0 auto;}
+        .breadcrumb {margin-bottom: 20px; color: #94a3b8;}
+        .breadcrumb a {color: #60a5fa; text-decoration: none;}
+        h1 {color: #60a5fa; font-size: 2.2rem; margin-bottom: 20px; border-bottom: 3px solid #3b82f6; padding-bottom: 10px;}
+        h2 {color: #fbbf24; font-size: 1.6rem; margin: 30px 0 15px 0; background: #1e293b; padding: 10px 15px; border-left: 4px solid #f59e0b; border-radius: 6px;}
+        h3 {color: #34d399; font-size: 1.3rem; margin: 20px 0 10px 0;}
+        .formula-box {background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center; font-size: 1.1rem;}
+        .pyq-box {background: #1e293b; border-left: 4px solid #10b981; padding: 15px; margin: 20px 0; border-radius: 6px;}
+        .pyq-box h4 {color: #10b981; margin-bottom: 8px;}
+        ul {margin: 15px 0 15px 30px;}
+        li {margin: 8px 0;}
+        .imp-point {background: #3b82f620; border: 1px solid #3b82f6; padding: 15px; border-radius: 8px; margin: 20px 0;}
+        .back-btn {display: inline-block; background: #3b82f6; color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; margin: 30px 0; font-weight: 600;}
+        .back-btn:hover {background: #2563eb;}
+        table {width: 100%; border-collapse: collapse; margin: 20px 0; background: #1e293b;}
+        th, td {border: 1px solid #334155; padding: 12px; text-align: left;}
+        th {background: #334155; color: #fbbf24;}
+        @media (max-width: 600px) {h1 {font-size: 1.8rem;} body {padding: 15px;}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> / <a href="index.html">Book 1</a> / Chapter 7 Notes
+        </div>
+
+        <h1>Chapter 7: Alternating Current 🔄⚡</h1>
+
+        <h2>1. AC Voltage and Current</h2>
+        <p>Alternating current changes magnitude and direction periodically with time.</p>
+        <div class="formula-box">
+            $$V = V_0 \sin\omega t$$
+            $$I = I_0 \sin\omega t$$
+            Where $V_0$ = Peak voltage, $I_0$ = Peak current<br>
+            $\omega = 2\pi f$, f = 50 Hz in India
+        </div>
+
+        <h3>Mean/Average Value:</h3>
+        <div class="formula-box">
+            $$I_{avg} = \frac{2I_0}{\pi} = 0.637 I_0 \text{ for half cycle}$$
+            Full cycle ke liye $I_{avg} = 0$
+        </div>
+
+        <h3>RMS Value:</h3>
+        <p>DC ka wo value jo AC ke equal heat produce kare.</p>
+        <div class="formula-box">
+            $$I_{rms} = \frac{I_0}{\sqrt{2}} = 0.707 I_0$$
+            $$V_{rms} = \frac{V_0}{\sqrt{2}} = 0.707 V_0$$
+        </div>
+
+        <div class="imp-point">
+            <b>🔥 Board Point:</b> Ghar me 220V supply RMS value hoti hai. Peak value = $220\sqrt{2} = 311$ V
+        </div>
+
+        <h2>2. AC through Pure Resistor (R)</h2>
+        <div class="formula-box">
+            $$V = V_0 \sin\omega t$$
+            $$I = \frac{V_0}{R}\sin\omega t = I_0 \sin\omega t$$
+        </div>
+        <p><b>Phase:</b> V aur I same phase me. Phase difference = 0°</p>
+        <p><b>Phasor:</b> V aur I same direction me</p>
+
+        <h2>3. AC through Pure Inductor (L)</h2>
+        <div class="formula-box">
+            $$V = V_0 \sin\omega t$$
+            $$I = I_0 \sin(\omega t - \pi/2)$$
+            Where $I_0 = \frac{V_0}{X_L}$
+        </div>
+        <p><b>Phase:</b> Current lags voltage by 90° or $\pi/2$</p>
+        
+        <h3>Inductive Reactance:</h3>
+        <div class="formula-box">
+            $$X_L = \omega L = 2\pi f L$$
+            Unit: Ohm (Ω)
+        </div>
+
+        <h2>4. AC through Pure Capacitor (C)</h2>
+        <div class="formula-box">
+            $$V = V_0 \sin\omega t$$
+            $$I = I_0 \sin(\omega t + \pi/2)$$
+            Where $I_0 = \frac{V_0}{X_C}$
+        </div>
+        <p><b>Phase:</b> Current leads voltage by 90° or $\pi/2$</p>
+        
+        <h3>Capacitive Reactance:</h3>
+        <div class="formula-box">
+            $$X_C = \frac{1}{\omega C} = \frac{1}{2\pi f C}$$
+            Unit: Ohm (Ω)
+        </div>
+
+        <div class="pyq-box">
+            <h4>PYQ 2023:</h4>
+            <p><b>Q.</b> Why capacitor blocks DC but allows AC?<br>
+            <b>Ans:</b> For DC f=0, $X_C = 1/0 = \infty$. For AC, $X_C = 1/\omega C$ finite value.</p>
+        </div>
+
+        <h2>5. LCR Series Circuit</h2>
+        <div class="formula-box">
+            $$V = V_0 \sin\omega t$$
+            $$I = I_0 \sin(\omega t + \phi)$$
+        </div>
+
+        <h3>Impedance (Z):</h3>
+        <div class="formula-box">
+            $$Z = \sqrt{R^2 + (X_L - X_C)^2}$$
+            $$I_0 = \frac{V_0}{Z}$$
+        </div>
+
+        <h3>Phase Angle:</h3>
+        <div class="formula-box">
+            $$\tan\phi = \frac{X_L - X_C}{R} = \frac{V_L - V_C}{V_R}$$
+        </div>
+
+        <table>
+            <tr>
+                <th>Condition</th>
+                <th>Phase</th>
+                <th>Circuit Nature</th>
+            </tr>
+            <tr>
+                <td>$X_L > X_C$</td>
+                <td>φ +ve, I lags V</td>
+                <td>Inductive</td>
+            </tr>
+            <tr>
+                <td>$X_C > X_L$</td>
+                <td>φ -ve, I leads V</td>
+                <td>Capacitive</td>
+            </tr>
+            <tr>
+                <td>$X_L = X_C$</td>
+                <td>φ = 0, I in phase</td>
+                <td>Resistive</td>
+            </tr>
+        </table>
+
+        <h2>6. Resonance in LCR Circuit</h2>
+        <p>When $X_L = X_C$, impedance minimum = R, current maximum.</p>
+        <div class="formula-box">
+            $$\omega_0 L = \frac{1}{\omega_0 C}$$
+            $$f_0 = \frac{1}{2\pi\sqrt{LC}}$$
+            $f_0$ = Resonant frequency
+        </div>
+
+        <h3>At Resonance:</h3>
+        <ul>
+            <li>Z = R minimum</li>
+            <li>$I_0 = V_0/R$ maximum</li>
+            <li>Power factor = 1</li>
+            <li>Phase angle φ = 0</li>
+        </ul>
+
+        <h3>Quality Factor (Q):</h3>
+        <div class="formula-box">
+            $$Q = \frac{\omega_0 L}{R} = \frac{1}{\omega_0 CR} = \frac{1}{R}\sqrt{\frac{L}{C}}$$
+        </div>
+
+        <div class="pyq-box">
+            <h4>PYQ 2024:</h4>
+            <p><b>Q.</b> L=2H, C=32μF, R=10Ω. Find resonant frequency.<br>
+            <b>Ans:</b> $f_0 = \frac{1}{2\pi\sqrt{LC}} = \frac{1}{2\pi\sqrt{2 \times 32 \times 10^{-6}}} = 19.9$ Hz</p>
+        </div>
+
+        <h2>7. Power in AC Circuit</h2>
+        <div class="formula-box">
+            $$P_{avg} = V_{rms} I_{rms} \cos\phi$$
+            $$\cos\phi = \frac{R}{Z} = \text{Power Factor}$$
+        </div>
+
+        <h3>Cases:</h3>
+        <ul>
+            <li><b>Pure R:</b> φ = 0, $\cos\phi = 1$, P = $V_{rms}I_{rms}$ maximum</li>
+            <li><b>Pure L or C:</b> φ = 90°, $\cos\phi = 0$, P = 0 Wattless current</li>
+            <li><b>LCR:</b> P = $V_{rms}I_{rms}\cos\phi$</li>
+        </ul>
+
+        <h2>8. LC Oscillations</h2>
+        <p>Energy oscillation between L and C. No loss if R = 0.</p>
+        <div class="formula-box">
+            $$q = q_0 \cos\omega t$$
+            $$I = -I_0 \sin\omega t$$
+            $$\omega = \frac{1}{\sqrt{LC}}$$
+        </div>
+
+        <h2>9. Transformer</h2>
+        <p>AC voltage ko step up ya step down karta hai. Principle: Mutual Induction</p>
+        <div class="formula-box">
+            $$\frac{V_S}{V_P} = \frac{N_S}{N_P} = \frac{I_P}{I_S}$$
+            For ideal transformer: $V_P I_P = V_S I_S$
+        </div>
+
+        <h3>Efficiency:</h3>
+        <div class="formula-box">
+            $$\eta = \frac{P_{out}}{P_{in}} \times 100\% = \frac{V_S I_S}{V_P I_P} \times 100\%$$
+        </div>
+
+        <h3>Energy Losses:</h3>
+        <ul>
+            <li><b>Copper loss:</b> $I^2R$ heating in windings</li>
+            <li><b>Iron loss:</b> Eddy current + Hysteresis loss</li>
+            <li><b>Flux leakage:</b> All flux not linked</li>
+        </ul>
+
+        <div class="imp-point">
+            <b>⚡ Last 5 Year Important:</b> RMS value, LCR circuit + resonance, Power factor, Transformer numerical, Phase difference in L & C - ye 5 topics pakka aate hain.
+        </div>
+
+        <a href="index.html" class="back-btn">← Back to All Chapters</a>
+    </div>
+</body>
+</html>
