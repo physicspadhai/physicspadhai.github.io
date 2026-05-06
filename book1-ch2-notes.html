@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch-2: Electrostatic Potential and Capacitance - Class 12 Physics NCERT 2025-26</title>
+    <meta name="description" content="Class 12 Physics Chapter 2 Electrostatic Potential and Capacitance Notes, PYQ, Important Formulas for CBSE Board 2026">
+    
+    <!-- MathJax Config - INLINE + DISPLAY MATH -->
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.7; padding: 20px;}
+        .container {max-width: 900px; margin: 0 auto;}
+        .breadcrumb {margin-bottom: 20px; color: #94a3b8;}
+        .breadcrumb a {color: #60a5fa; text-decoration: none;}
+        h1 {color: #60a5fa; font-size: 2.2rem; margin-bottom: 20px; border-bottom: 3px solid #3b82f6; padding-bottom: 10px;}
+        h2 {color: #fbbf24; font-size: 1.6rem; margin: 30px 0 15px 0; background: #1e293b; padding: 10px 15px; border-left: 4px solid #f59e0b; border-radius: 6px;}
+        h3 {color: #34d399; font-size: 1.3rem; margin: 20px 0 10px 0;}
+        .formula-box {background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center; font-size: 1.1rem;}
+        .pyq-box {background: #1e293b; border-left: 4px solid #10b981; padding: 15px; margin: 20px 0; border-radius: 6px;}
+        .pyq-box h4 {color: #10b981; margin-bottom: 8px;}
+        ul {margin: 15px 0 15px 30px;}
+        li {margin: 8px 0;}
+        .imp-point {background: #3b82f620; border: 1px solid #3b82f6; padding: 15px; border-radius: 8px; margin: 20px 0;}
+        .back-btn {display: inline-block; background: #3b82f6; color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; margin: 30px 0; font-weight: 600;}
+        .back-btn:hover {background: #2563eb;}
+        @media (max-width: 600px) {h1 {font-size: 1.8rem;} body {padding: 15px;}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> / <a href="index.html">Book 1</a> / Chapter 2 Notes
+        </div>
+
+        <h1>Chapter 2: Electrostatic Potential and Capacitance 🔋</h1>
+
+        <h2>1. Electric Potential</h2>
+        <p>Work done per unit positive charge in bringing it from infinity to that point against electrostatic force.</p>
+        
+        <div class="formula-box">
+            $$V = \frac{W}{q_0} = \frac{1}{4\pi\varepsilon_0}\frac{q}{r}$$
+            SI Unit: Volt (V) = J/C. Scalar quantity.
+        </div>
+
+        <h3>Potential Difference:</h3>
+        <div class="formula-box">
+            $$V_B - V_A = \frac{W_{AB}}{q_0} = -\int_A^B \vec{E} \cdot d\vec{l}$$
+        </div>
+
+        <div class="imp-point">
+            <b>🔥 Board Point:</b> Potential is zero at infinity. Electric field is negative gradient of potential: $\vec{E} = -\vec{\nabla}V$
+        </div>
+
+        <h2>2. Potential due to Point Charge</h2>
+        <div class="formula-box">
+            $$V = \frac{1}{4\pi\varepsilon_0}\frac{q}{r}$$
+        </div>
+
+        <h3>Potential due to Electric Dipole:</h3>
+        <p><b>Axial:</b> $V = \frac{1}{4\pi\varepsilon_0}\frac{p\cos\theta}{r^2}$</p>
+        <p><b>Equatorial:</b> $V = 0$ because $\theta = 90°$</p>
+
+        <h2>3. Equipotential Surface</h2>
+        <ul>
+            <li>Surface where potential is same at every point</li>
+            <li>Work done in moving charge on it is zero</li>
+            <li>Electric field is always perpendicular to equipotential surface</li>
+            <li>Two equipotential surfaces never intersect</li>
+        </ul>
+
+        <h2>4. Potential Energy</h2>
+        <h3>System of Two Charges:</h3>
+        <div class="formula-box">
+            $$U = \frac{1}{4\pi\varepsilon_0}\frac{q_1 q_2}{r}$$
+        </div>
+
+        <h3>System of Three Charges:</h3>
+        <div class="formula-box">
+            $$U = \frac{1}{4\pi\varepsilon_0}\left[\frac{q_1 q_2}{r_{12}} + \frac{q_2 q_3}{r_{23}} + \frac{q_1 q_3}{r_{13}}\right]$$
+        </div>
+
+        <h2>5. Potential Energy of Dipole in External Field</h2>
+        <div class="formula-box">
+            $$U = -\vec{p} \cdot \vec{E} = -pE\cos\theta$$
+            Stable equilibrium: $\theta = 0°$, Unstable: $\theta = 180°$
+        </div>
+
+        <div class="pyq-box">
+            <h4>PYQ 2023:</h4>
+            <p><b>Q.</b> Derive expression for potential energy of electric dipole in uniform electric field.<br>
+            <b>Ans:</b> $U = -pE\cos\theta$. Minimum at $\theta = 0°$</p>
+        </div>
+
+        <h2>6. Capacitance</h2>
+        <p>Ability of conductor to store charge. $C = \frac{Q}{V}$</p>
+        <div class="formula-box">
+            SI Unit: Farad (F) = C/V. 1 F = 1 C/V
+        </div>
+
+        <h3>Parallel Plate Capacitor:</h3>
+        <div class="formula-box">
+            $$C = \frac{\varepsilon_0 A}{d}$$
+            With dielectric: $C = K\frac{\varepsilon_0 A}{d} = KC_0$
+        </div>
+
+        <h2>7. Combination of Capacitors</h2>
+        <h3>Series:</h3>
+        <div class="formula-box">
+            $$\frac{1}{C_s} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3}$$
+            Same charge, potential divides: $V = V_1 + V_2 + V_3$
+        </div>
+
+        <h3>Parallel:</h3>
+        <div class="formula-box">
+            $$C_p = C_1 + C_2 + C_3$$
+            Same potential, charge divides: $Q = Q_1 + Q_2 + Q_3$
+        </div>
+
+        <h2>8. Energy Stored in Capacitor</h2>
+        <div class="formula-box">
+            $$U = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$$
+        </div>
+
+        <h3>Energy Density:</h3>
+        <div class="formula-box">
+            $$u = \frac{1}{2}\varepsilon_0 E^2$$
+            Unit: J/m³
+        </div>
+
+        <div class="pyq-box">
+            <h4>PYQ 2024:</h4>
+            <p><b>Q.</b> Three capacitors 2μF, 3μF, 6μF are connected in series. Find equivalent capacitance.<br>
+            <b>Ans:</b> $\frac{1}{C} = \frac{1}{2} + \frac{1}{3} + \frac{1}{6} = 1$, So C = 1 μF</p>
+        </div>
+
+        <h2>9. Dielectrics</h2>
+        <p>Insulating materials which transmit electric effect without conduction.</p>
+        <ul>
+            <li><b>Polar:</b> Have permanent dipole moment. Ex: H₂O, NH₃</li>
+            <li><b>Non-polar:</b> No permanent dipole. Ex: H₂, N₂, CO₂</li>
+        </ul>
+
+        <h3>Effect of Dielectric:</h3>
+        <p>When dielectric slab of thickness t is inserted: $C = \frac{\varepsilon_0 A}{d - t + t/K}$</p>
+
+        <div class="imp-point">
+            <b>⚡ Last 5 Year Important:</b> Potential due to dipole, Capacitors in series/parallel, Energy stored, Effect of dielectric - ye 4 topics pakka aate hain.
+        </div>
+
+        <a href="index.html" class="back-btn">← Back to All Chapters</a>
+    </div>
+</body>
+</html>
