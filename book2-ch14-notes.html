@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ch-14: Semiconductor Electronics - Class 12 Physics NCERT 2025-26</title>
+    <meta name="description" content="Class 12 Physics Chapter 14 Semiconductor Notes, PYQ, Important Formulas for CBSE Board 2026">
+    
+    <!-- MathJax Config - INLINE + DISPLAY MATH -->
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        body {font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.7; padding: 20px;}
+        .container {max-width: 900px; margin: 0 auto;}
+        .breadcrumb {margin-bottom: 20px; color: #94a3b8;}
+        .breadcrumb a {color: #60a5fa; text-decoration: none;}
+        h1 {color: #60a5fa; font-size: 2.2rem; margin-bottom: 20px; border-bottom: 3px solid #3b82f6; padding-bottom: 10px;}
+        h2 {color: #fbbf24; font-size: 1.6rem; margin: 30px 0 15px 0; background: #1e293b; padding: 10px 15px; border-left: 4px solid #f59e0b; border-radius: 6px;}
+        h3 {color: #34d399; font-size: 1.3rem; margin: 20px 0 10px 0;}
+        .formula-box {background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 20px; margin: 20px 0; text-align: center; font-size: 1.1rem;}
+        .pyq-box {background: #1e293b; border-left: 4px solid #10b981; padding: 15px; margin: 20px 0; border-radius: 6px;}
+        .pyq-box h4 {color: #10b981; margin-bottom: 8px;}
+        ul {margin: 15px 0 15px 30px;}
+        li {margin: 8px 0;}
+        .imp-point {background: #3b82f620; border: 1px solid #3b82f6; padding: 15px; border-radius: 8px; margin: 20px 0;}
+        .back-btn {display: inline-block; background: #3b82f6; color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; margin: 30px 0; font-weight: 600;}
+        .back-btn:hover {background: #2563eb;}
+        table {width: 100%; border-collapse: collapse; margin: 20px 0; background: #1e293b;}
+        th, td {border: 1px solid #334155; padding: 12px; text-align: left;}
+        th {background: #334155; color: #fbbf24;}
+        @media (max-width: 600px) {h1 {font-size: 1.8rem;} body {padding: 15px;}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> / <a href="index.html">Book 2</a> / Chapter 14 Notes
+        </div>
+
+        <h1>Chapter 14: Semiconductor Electronics 📱💻</h1>
+
+        <h2>1. Classification of Solids</h2>
+        <p>Energy band theory ke basis par:</p>
+        <table>
+            <tr>
+                <th>Type</th>
+                <th>Band Gap E_g</th>
+                <th>Resistivity</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>Conductor</td>
+                <td>Zero or overlap</td>
+                <td>10⁻⁸ - 10⁻⁶ Ωm</td>
+                <td>Cu, Al</td>
+            </tr>
+            <tr>
+                <td>Semiconductor</td>
+                <td>~1 eV</td>
+                <td>10⁻⁵ - 10⁶ Ωm</td>
+                <td>Si-1.1eV, Ge-0.7eV</td>
+            </tr>
+            <tr>
+                <td>Insulator</td>
+                <td>>3 eV</td>
+                <td>10¹¹ - 10¹⁹ Ωm</td>
+                <td>Diamond-6eV</td>
+            </tr>
+        </table>
+
+        <h2>2. Intrinsic Semiconductor</h2>
+        <p>Pure semiconductor. Si, Ge - 4 valence electrons. At T=0K insulator, T↑ conductivity↑</p>
+        <div class="formula-box">
+            $$n_e = n_h = n_i$$
+            Conductivity: $$\sigma = e(n_e\mu_e + n_h\mu_h)$$
+            $\mu_e > \mu_h$ for Si, Ge
+        </div>
+
+        <h2>3. Extrinsic Semiconductor</h2>
+        <p>Doping karke conductivity badhate hain.</p>
+
+        <h3>n-type:</h3>
+        <p>Pentavalent impurity - P, As, Sb. Donor level conduction band ke just neeche.</p>
+        <div class="formula-box">
+            $$n_e >> n_h$$
+            Majority: electrons, Minority: holes
+        </div>
+
+        <h3>p-type:</h3>
+        <p>Trivalent impurity - B, Al, Ga. Acceptor level valence band ke just upar.</p>
+        <div class="formula-box">
+            $$n_h >> n_e$$
+            Majority: holes, Minority: electrons
+        </div>
+
+        <h3>Mass Action Law:</h3>
+        <div class="formula-box">
+            $$n_e n_h = n_i^2$$
+            Valid for both intrinsic & extrinsic
+        </div>
+
+        <div class="imp-point">
+            <b>🔥 Board Point:</b> Doping se conductivity 10⁶ times badh jaati hai. But net charge zero rehta hai.
+        </div>
+
+        <h2>4. p-n Junction Diode</h2>
+        <p>p-type aur n-type ko join karne par depletion layer banti hai ~10⁻⁶m</p>
+
+        <h3>Barrier Potential:</h3>
+        <p>Si = 0.7V, Ge = 0.3V at room temp</p>
+
+        <h3>Biasing:</h3>
+        <table>
+            <tr>
+                <th>Biasing</th>
+                <th>Connection</th>
+                <th>Depletion Width</th>
+                <th>Resistance</th>
+                <th>Current</th>
+            </tr>
+            <tr>
+                <td>Forward</td>
+                <td>p to +ve, n to -ve</td>
+                <td>Decreases</td>
+                <td>Low ~10Ω</td>
+                <td>mA order, diffusion</td>
+            </tr>
+            <tr>
+                <td>Reverse</td>
+                <td>p to -ve, n to +ve</td>
+                <td>Increases</td>
+                <td>High ~10⁶Ω</td>
+                <td>μA order, drift</td>
+            </tr>
+        </table>
+
+        <h3>I-V Characteristics:</h3>
+        <div class="formula-box">
+            $$I = I_s(e^{eV/kT} - 1)$$
+            I_s = Reverse saturation current
+        </div>
+
+        <h3>Knee Voltage:</h3>
+        <p>Forward bias me current suddenly badhne lagta hai. Si=0.7V, Ge=0.3V</p>
+
+        <h3>Breakdown:</h3>
+        <ul>
+            <li><b>Zener:</b> Heavy doping, thin depletion, E field se electron pull. < 6V</li>
+            <li><b>Avalanche:</b> Light doping, thick depletion, collision se ionisation. > 6V</li>
+        </ul>
+
+        <div class="pyq-box">
+            <h4>PYQ 2024:</h4>
+            <p><b>Q.</b> Explain working of p-n junction in forward bias.<br>
+            <b>Ans:</b> p to +ve, n to -ve. Barrier potential kam hota hai, depletion width ghat ti hai, majority carriers cross karte hain, current mA me.</p>
+        </div>
+
+        <h2>5. Applications of Diode</h2>
+        <h3>1. Rectifier:</h3>
+        <p>AC to DC conversion</p>
+        <ul>
+            <li><b>Half Wave:</b> Efficiency 40.6%, Ripple factor 1.21</li>
+            <li><b>Full Wave:</b> Efficiency 81.2%, Ripple factor 0.48</li>
+        </ul>
+
+        <h3>2. Zener Diode:</h3>
+        <p>Reverse bias me voltage regulator ke kaam aata hai.</p>
+        <div class="formula-box">
+            $$V_{out} = V_Z = \text{constant}$$
+        </div>
+
+        <h3>3. Optoelectronic Devices:</h3>
+        <ul>
+            <li><b>LED:</b> Forward bias, e-h recombination se light. GaAs, GaP</li>
+            <li><b>Photodiode:</b> Reverse bias, light se current. Optical communication</li>
+            <li><b>Solar Cell:</b> No bias, light se emf generate</li>
+        </ul>
+
+        <h2>6. Transistor</h2>
+        <p>2 p-n junctions. 3 terminals: Emitter, Base, Collector. E heavily doped, B thin lightly doped, C moderately doped.</p>
+
+        <h3>Types:</h3>
+        <p>npn & pnp. Symbol me arrow emitter par, conventional current direction.</p>
+
+        <h3>Working:</h3>
+        <p>EB forward biased, CB reverse biased. Active region.</p>
+        <div class="formula-box">
+            $$I_E = I_B + I_C$$
+            $I_B$ ≈ 2-5% of $I_E$, $I_C$ ≈ 95-98% of $I_E$
+        </div>
+
+        <h3>Current Gains:</h3>
+        <div class="formula-box">
+            $$\alpha = \frac{I_C}{I_E} < 1 \text{ (CB config)}$$
+            $$\beta = \frac{I_C}{I_B} >> 1 \text{ (CE config)}$$
+            $$\alpha = \frac{\beta}{1+\beta}, \quad \beta = \frac{\alpha}{1-\alpha}$$
+        </div>
+
+        <h3>Transistor as Amplifier (CE):</h3>
+        <div class="formula-box">
+            Current Gain: $$A_i = \beta$$
+            Voltage Gain: $$A_v = \beta \frac{R_C}{R_B}$$
+            Power Gain: $$A_p = \beta^2 \frac{R_C}{R_B}$$
+            Phase diff: 180° input-output
+        </div>
+
+        <div class="imp-point">
+            <b>⚡ Last 5 Year Important:</b> p-n junction biasing, Zener diode as regulator, LED/Photodiode, Transistor α-β relation, CE amplifier gain - ye 5 topics pakka aate hain.
+        </div>
+
+        <h2>7. Logic Gates</h2>
+        <p>Boolean algebra follow karte hain. Basic gates:</p>
+        <table>
+            <tr>
+                <th>Gate</th>
+                <th>Symbol</th>
+                <th>Boolean</th>
+                <th>Truth Table</th>
+            </tr>
+            <tr>
+                <td>NOT</td>
+                <td>Triangle+circle</td>
+                <td>Y = Ā</td>
+                <td>0→1, 1→0</td>
+            </tr>
+            <tr>
+                <td>OR</td>
+                <td>Curved</td>
+                <td>Y = A+B</td>
+                <td>0+0=0 else 1</td>
+            </tr>
+            <tr>
+                <td>AND</td>
+                <td>Flat</td>
+                <td>Y = A·B</td>
+                <td>1·1=1 else 0</td>
+            </tr>
+            <tr>
+                <td>NAND</td>
+                <td>AND+circle</td>
+                <td>Y = $\overline{A·B}$</td>
+                <td>Universal gate</td>
+            </tr>
+            <tr>
+                <td>NOR</td>
+                <td>OR+circle</td>
+                <td>Y = $\overline{A+B}$</td>
+                <td>Universal gate</td>
+            </tr>
+        </table>
+
+        <div class="pyq-box">
+            <h4>PYQ 2023:</h4>
+            <p><b>Q.</b> Draw NAND gate using NOR gates only.<br>
+            <b>Ans:</b> De Morgan: $\overline{A·B}$ = $\overline{\overline{A}+\overline{B}}$</p>
+        </div>
+
+        <a href="index.html" class="back-btn">← Back to All Chapters</a>
+    </div>
+</body>
+</html>
