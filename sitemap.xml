@@ -45,4 +45,9 @@
   <url><loc>https://physicspadhai.github.io/book2-ch13-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
   <url><loc>https://physicspadhai.github.io/book2-ch14-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
 
+    <!-- Important Pages -->
+  <url><loc>https://physicspadhai.github.io/about.html</loc><lastmod>2026-05-05</lastmod><priority>0.5</priority></url>
+  <url><loc>https://physicspadhai.github.io/contact.html</loc><lastmod>2026-05-05</lastmod><priority>0.5</priority></url>
+  <url><loc>https://physicspadhai.github.io/privacy-policy.html</loc><lastmod>2026-05-05</lastmod><priority>0.3</priority></url>
+  <url><loc>https://physicspadhai.github.io/disclaimer.html</loc><lastmod>2026-05-05</lastmod><priority>0.3</priority></url>
 </urlset>
