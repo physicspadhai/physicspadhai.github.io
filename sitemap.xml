@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://physicspadhai.github.io/</loc>
+    <lastmod>2026-05-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- BOOK 1: Notes Pages -->
+  <url><loc>https://physicspadhai.github.io/book1-ch1-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch2-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch3-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch4-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch5-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch6-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch7-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch8-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+
+  <!-- BOOK 1: Numerical Pages -->
+  <url><loc>https://physicspadhai.github.io/book1-ch1-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch2-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch3-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch4-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch5-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch6-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch7-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book1-ch8-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+
+  <!-- BOOK 2: Notes Pages -->
+  <url><loc>https://physicspadhai.github.io/book2-ch9-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book2-ch10-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book2-ch11-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book2-ch12-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book2-ch13-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book2-ch14-notes.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+
+  <!-- BOOK 2: Numerical Pages -->
+  <url><loc>https://physicspadhai.github.io/book2-ch9-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book2-ch10-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book2-ch11-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book2-ch12-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book2-ch13-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+  <url><loc>https://physicspadhai.github.io/book2-ch14-numerical.html</loc><lastmod>2026-05-05</lastmod><priority>0.8</priority></url>
+
+</urlset>
